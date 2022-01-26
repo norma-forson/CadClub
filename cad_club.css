@@ -62,18 +62,22 @@ body{
 }
 
 
-#executives{
+.executives{
      display:flex;
      width:90%;
+     height:80%;
      margin:auto;
-     align-items:center;
      justify-content: center;
 }
-
-#executives div{
-    width:30%;
+#descriptions h2{
+    width:220px;
 }
-#executives div img{
+
+.executives div{
+    width:50%;
+    
+}
+.executives div img{
     width:220px;
     height:220px;
 }
@@ -121,12 +125,12 @@ body{
         width:100%;
         margin:10px 0px;
     }
-    #executives{
+    .executives{
         display:flex;
         flex-direction:column;
         
     }
-    #executives div{
+    .executives div{
         width:100%;
         text-align:center;        
     }
@@ -141,11 +145,21 @@ body{
     }
 }
 .tutors{
-    display:flex;
+     display:flex;
      width:90%;
+     height:80%;
      margin:auto;
-     align-items:center;
      justify-content: center;
+     
+}
+
+.tutors div{
+    width:30%;
+}
+
+.tutors div img{
+    width:220px;
+    height:220px;
 }
 #contact{
     height:100vh;
@@ -164,10 +178,7 @@ body{
 }
 #contact_img div{
   margin:10px;
-  border-radius:15%;
-  box-shadow: 5px 5px 5px 5px;
 }
-
 
 
 #contact_img div img{
